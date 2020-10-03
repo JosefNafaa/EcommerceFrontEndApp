@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "EcommerceFrontEndApp": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "EcommerceFrontEndApp"
+    }
+  },
+  "defaultProject": "EcommerceFrontEndApp",
+  "cli": {
+    "analytics": "1daceeb8-5865-4c77-85bd-dee87504c404"
+  }
 }

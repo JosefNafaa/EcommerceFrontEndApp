@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ProductListComponent } from './components/product-list/product-list.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
 
 const routes: Routes = [
+  { path: 'search/:keyword', component: ProductListComponent },
   { path: 'category/:id', component: ProductListComponent },
+  { path: 'contact', component: ContactFormComponent },
   { path: 'category', component: ProductListComponent }, 
   { path: 'products', component: ProductListComponent },
   { path: '', redirectTo: '/products', pathMatch: 'full' },
